@@ -1,0 +1,11 @@
+.notice.acf-to-rest-api-donation-notice {
+    display: none !important;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    clear: both;
+}
+.plugin-version-author-uri{
+    display: none !important;
+}
