@@ -9,7 +9,7 @@
     "tightenco/collect": "^7.12",
     "uwebpro/wordpress": "^2.0",
     "symfony/http-foundation": "^5.1",
-    "uwebpro/wp-rest-router": "^1.0"
+    "uwebpro/wp-rest-router": "^2.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
