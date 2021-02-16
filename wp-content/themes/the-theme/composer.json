@@ -3,13 +3,13 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php": "^7.4",
+    "php": "^8.0",
     "symfony/var-dumper": "^5.1",
     "filp/whoops": "^2.7",
-    "tightenco/collect": "^7.12",
     "uwebpro/wordpress": "^2.0",
-    "symfony/http-foundation": "^5.1",
-    "uwebpro/wp-rest-router": "^2.0"
+    "symfony/http-foundation": "^5.2",
+    "uwebpro/wp-rest-router": "^3.0",
+    "illuminate/collections": "^8.28"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"

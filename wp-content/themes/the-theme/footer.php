@@ -4,7 +4,7 @@
        <div class="container">
            <div class="row">
                <div class="col-sm-12">
-                    Footer details going here    
+                    Footer details going here
                </div>
            </div>
        </div>
@@ -18,13 +18,5 @@
 
 
 <?php wp_footer(); ?>
-
-<script>
-    document.addEventListener(
-        "DOMContentLoaded", () => {
-            new Mmenu( "#mobMenu" );
-        }
-    );
-</script>
 </body>
 </html>

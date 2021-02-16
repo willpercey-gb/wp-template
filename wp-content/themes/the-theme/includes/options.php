@@ -9,7 +9,7 @@ show_admin_bar(false);
 add_action('after_setup_theme', fn() => add_theme_support('post-thumbnails'));
 
 //Tagline
-add_filter('admin_footer_text', fn() => print '<strong>Love Basingstoke ' . date('Y') . '</strong> | v');
+add_filter('admin_footer_text', fn() => print '<strong>' . get_bloginfo()['name'] . ' ' . date('Y') . '</strong> | v');
 
 //Disable Comments
 add_filter('comments_open', fn() => false, 10, 2);
